@@ -1,0 +1,109 @@
+.time-line {
+    position: relative;
+    height: 100vh;
+    margin: auto;
+
+    .main-line {
+        position: absolute;
+        height: 400vh;
+        width: 2px;
+        background: #fff;
+        top: 10%;
+        margin-left: 25%;
+    }
+
+    .time-line-label-number {
+        a {
+            text-decoration: none;
+        }
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-weight: 700;
+        position: sticky;
+        width: 50px;
+        height: 50px;
+        border: 2px solid white;
+        border-radius: 100%;
+        margin-left: 22.9%;
+        transform: translateY(13vh);
+        top: 30%;
+        font-size: x-large;
+        background: #000;
+    }
+
+    .time-line-label-number:hover {
+
+        cursor: pointer;
+
+        p {
+            color: black;
+            border: 3px solid black;
+            border-radius: 100%;
+            width: 45px;
+            height: 45px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+        }
+
+        background: yellow;
+    }
+
+    .content-section {
+        width: 400px;
+        height: 400px;
+        border: 2px solid white;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        text-align: center;
+        cursor: pointer;
+        margin-top: 50px;
+        margin-left: 35%;
+    }
+
+    .image {
+
+        img {
+            width: 380px;
+            height: 390px;
+            margin-left: 19vw;
+            transform: translateY(100px);
+            cursor: crosshair;
+
+        }
+    }
+
+    // img:hover {
+    //     opacity: 100%;
+    //     margin-bottom: 50px;
+    //     transition-duration: .4s;
+    // }
+
+    #I-Kolitha {
+        width: 100px;
+        font-size: 4rem;
+        font-weight: 900;
+        transform: translateY(-50vh);
+        margin-left: 20px;
+    }
+
+
+    .contact-on {
+        .stack-overflow-icon {
+            width: 50px;
+        }
+
+        .github {
+            @extend .stack-overflow-icon;
+        }
+    }
+
+}

@@ -1,0 +1,24 @@
+.projects {
+    h2 {
+        font-size: 4rem;
+        font-weight: 900;
+        transform: translateY(35vh);
+        margin-left: 20px;
+    }
+
+    .project-cards {
+        width: 600px;
+        height: 400px;
+        border: 2px solid white;
+        border-radius: 8px;
+        margin-left: 35%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            font-size: 4rem;
+        }
+    }
+}

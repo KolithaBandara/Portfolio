@@ -1,0 +1,40 @@
+nav {
+
+    .logo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background: transparent;
+        padding: 0px 40px 0px 40px;
+        height: 10vh;
+
+        #logo-name {
+            font-size: 2rem;
+        }
+
+        ul {
+            list-style: none;
+
+            li {
+                display: inline;
+
+                a {
+                    text-decoration: none;
+                    color: white;
+                    margin: 0px 20px 0px 20px;
+                    padding: 8px 10px 8px 10px;
+                    border: 1px solid transparent;
+                }
+
+                a:hover {
+                    border: 1px solid white;
+                    background: transparent;
+                    border-radius: 8px;
+                    transition-duration: 0.5s;
+                }
+
+            }
+        }
+    }
+}

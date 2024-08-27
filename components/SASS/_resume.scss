@@ -1,0 +1,26 @@
+.Resume {
+    #resume-title {
+        font-size: 4rem;
+        font-weight: 900;
+        transform: translateY(35vh);
+        margin-left: 20px;
+    }
+
+    #resume-download-btn {
+        background: transparent;
+        font-size: 1.5rem;
+        padding: 10px 20px;
+        border-radius: 8px;
+        border: 2px solid white;
+        margin-left: 50px;
+        transform: translateY(-38vh);
+    }
+
+    #resume-download-btn:hover {
+        background: white;
+        color: black;
+        transition-duration: .4s;
+        cursor: pointer;
+    }
+
+}

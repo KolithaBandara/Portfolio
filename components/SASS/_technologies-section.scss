@@ -1,0 +1,127 @@
+.technologies {
+    height: 100vh;
+
+    .I-believe {
+        font-size: 4rem;
+        font-weight: 900;
+        transform: translateY(50vh);
+        margin-left: 20px;
+    }
+
+    .techie-icons {
+        width: 700px;
+        height: 100px;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: 35%;
+        margin-top: 20px;
+        border: 2px solid white;
+
+        .html-icon {
+            width: 70px;
+            cursor: pointer;
+            align-items: center;
+            filter: grayscale(100%);
+            padding: 5px 5px 5px 5px;
+        }
+
+        .html-icon:hover {
+            filter: grayscale(0%);
+        }
+
+        .css-icon {
+            @extend .html-icon;
+        }
+
+        .sass-icon {
+            @extend .html-icon;
+        }
+
+        .tailwind-css-icon {
+            @extend .html-icon;
+        }
+
+
+        .js-icon {
+            @extend .html-icon;
+        }
+
+        .java-icon {
+            @extend .html-icon;
+        }
+
+        .java-spring-boot-icon {
+            @extend .html-icon;
+        }
+
+        .my-sql {
+            @extend .html-icon;
+        }
+
+        .photoshop-icon {
+            @extend .html-icon;
+        }
+
+        .bootstrap-icon {
+            @extend .html-icon;
+        }
+
+        .figma-icon {
+            @extend .html-icon;
+        }
+
+        .react-icon {
+            @extend .html-icon;
+        }
+
+        .typescript-icon {
+            @extend .html-icon;
+        }
+
+        .angular-icon {
+            @extend .html-icon;
+        }
+
+        .mongo-db-icon {
+            @extend .html-icon;
+        }
+
+        .git-icon {
+            @extend .html-icon;
+        }
+
+        .github-icon {
+            @extend .html-icon;
+
+        }
+
+        .node-js-icon {
+            @extend .html-icon;
+        }
+
+        .aws-icon {
+            @extend .html-icon;
+        }
+
+        .adobe-pr-icon {
+            @extend .html-icon;
+        }
+    }
+
+    .techie-icons-2 {
+        margin-top: 100px;
+    }
+
+    h2 {
+        margin-left: 35%;
+        text-align: center;
+
+    }
+
+    #current-learn {
+        transform: translateY(50px);
+    }
+}

@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "League Spartan", sans-serif;
+  color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: black;
+}
+
+nav .logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  padding: 0px 40px 0px 40px;
+  height: 10vh;
+}
+nav .logo #logo-name {
+  font-size: 2rem;
+}
+nav .logo ul {
+  list-style: none;
+}
+nav .logo ul li {
+  display: inline;
+}
+nav .logo ul li a {
+  text-decoration: none;
+  color: white;
+  margin: 0px 20px 0px 20px;
+  padding: 8px 10px 8px 10px;
+  border: 1px solid transparent;
+}
+nav .logo ul li a:hover {
+  border: 1px solid white;
+  background: transparent;
+  border-radius: 8px;
+  transition-duration: 0.5s;
+}
+
+.time-line {
+  position: relative;
+  height: 100vh;
+  margin: auto;
+}
+.time-line .main-line {
+  position: absolute;
+  height: 400vh;
+  width: 2px;
+  background: #fff;
+  top: 10%;
+  margin-left: 25%;
+}
+.time-line .time-line-label-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 700;
+  position: sticky;
+  width: 50px;
+  height: 50px;
+  border: 2px solid white;
+  border-radius: 100%;
+  margin-left: 22.9%;
+  transform: translateY(13vh);
+  top: 30%;
+  font-size: x-large;
+  background: #000;
+}
+.time-line .time-line-label-number a {
+  text-decoration: none;
+}
+.time-line .time-line-label-number:hover {
+  cursor: pointer;
+  background: yellow;
+}
+.time-line .time-line-label-number:hover p {
+  color: black;
+  border: 3px solid black;
+  border-radius: 100%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.time-line .content-section {
+  width: 400px;
+  height: 400px;
+  border: 2px solid white;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 50px;
+  margin-left: 35%;
+}
+.time-line .image img {
+  width: 380px;
+  height: 390px;
+  margin-left: 19vw;
+  transform: translateY(100px);
+  cursor: crosshair;
+}
+.time-line #I-Kolitha {
+  width: 100px;
+  font-size: 4rem;
+  font-weight: 900;
+  transform: translateY(-50vh);
+  margin-left: 20px;
+}
+.time-line .contact-on .stack-overflow-icon, .time-line .contact-on .github {
+  width: 50px;
+}
+.technologies {
+  height: 100vh;
+}
+.technologies .I-believe {
+  font-size: 4rem;
+  font-weight: 900;
+  transform: translateY(50vh);
+  margin-left: 20px;
+}
+.technologies .techie-icons {
+  width: 700px;
+  height: 100px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 35%;
+  margin-top: 20px;
+  border: 2px solid white;
+}
+.technologies .techie-icons .html-icon, .technologies .techie-icons .adobe-pr-icon, .technologies .techie-icons .aws-icon, .technologies .techie-icons .node-js-icon, .technologies .techie-icons .github-icon, .technologies .techie-icons .git-icon, .technologies .techie-icons .mongo-db-icon, .technologies .techie-icons .angular-icon, .technologies .techie-icons .typescript-icon, .technologies .techie-icons .react-icon, .technologies .techie-icons .figma-icon, .technologies .techie-icons .bootstrap-icon, .technologies .techie-icons .photoshop-icon, .technologies .techie-icons .my-sql, .technologies .techie-icons .java-spring-boot-icon, .technologies .techie-icons .java-icon, .technologies .techie-icons .js-icon, .technologies .techie-icons .tailwind-css-icon, .technologies .techie-icons .sass-icon, .technologies .techie-icons .css-icon {
+  width: 70px;
+  cursor: pointer;
+  align-items: center;
+  filter: grayscale(100%);
+  padding: 5px 5px 5px 5px;
+}
+.technologies .techie-icons .html-icon:hover, .technologies .techie-icons .adobe-pr-icon:hover, .technologies .techie-icons .aws-icon:hover, .technologies .techie-icons .node-js-icon:hover, .technologies .techie-icons .github-icon:hover, .technologies .techie-icons .git-icon:hover, .technologies .techie-icons .mongo-db-icon:hover, .technologies .techie-icons .angular-icon:hover, .technologies .techie-icons .typescript-icon:hover, .technologies .techie-icons .react-icon:hover, .technologies .techie-icons .figma-icon:hover, .technologies .techie-icons .bootstrap-icon:hover, .technologies .techie-icons .photoshop-icon:hover, .technologies .techie-icons .my-sql:hover, .technologies .techie-icons .java-spring-boot-icon:hover, .technologies .techie-icons .java-icon:hover, .technologies .techie-icons .js-icon:hover, .technologies .techie-icons .tailwind-css-icon:hover, .technologies .techie-icons .sass-icon:hover, .technologies .techie-icons .css-icon:hover {
+  filter: grayscale(0%);
+}
+.technologies .techie-icons-2 {
+  margin-top: 100px;
+}
+.technologies h2 {
+  margin-left: 35%;
+  text-align: center;
+}
+.technologies #current-learn {
+  transform: translateY(50px);
+}
+
+.projects h2 {
+  font-size: 4rem;
+  font-weight: 900;
+  transform: translateY(35vh);
+  margin-left: 20px;
+}
+.projects .project-cards {
+  width: 600px;
+  height: 400px;
+  border: 2px solid white;
+  border-radius: 8px;
+  margin-left: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.projects .project-cards p {
+  font-size: 4rem;
+}
+
+.Resume #resume-title {
+  font-size: 4rem;
+  font-weight: 900;
+  transform: translateY(35vh);
+  margin-left: 20px;
+}
+.Resume #resume-download-btn {
+  background: transparent;
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 2px solid white;
+  margin-left: 50px;
+  transform: translateY(-38vh);
+}
+.Resume #resume-download-btn:hover {
+  background: white;
+  color: black;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+footer {
+  height: 20vh;
+  width: 100vw;
+  font-weight: 500;
+  background: black;
+  border-top: 1px solid white;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer .fb-icon {
+  margin-top: 20px;
+  width: 25px;
+}/*# sourceMappingURL=style.css.map */
