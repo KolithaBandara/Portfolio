@@ -5,7 +5,7 @@
 
     .main-line {
         position: absolute;
-        height: 400vh;
+        height: 425vh;
         width: 2px;
         background: #fff;
         top: 10%;
@@ -60,13 +60,19 @@
         border: 2px solid white;
         border-radius: 8px;
         display: flex;
-        flex-direction: row;
-        justify-content: start;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
         text-align: center;
-        cursor: pointer;
-        margin-top: 50px;
+        margin-top: 75px;
         margin-left: 35%;
+        padding: 0px 20px 0px 20px;
+
+        p {
+            margin-top: 200px;
+            padding-top: 100px;
+
+        }
     }
 
     .image {
@@ -93,6 +99,41 @@
         font-weight: 900;
         transform: translateY(-50vh);
         margin-left: 20px;
+    }
+
+    .social-media {
+        p {
+            transform: translateY(-40px);
+            margin-left: 25px;
+        }
+
+        margin-left: 80vw;
+        transform: translateY(-300px);
+
+        a {
+            text-decoration: none;
+        }
+
+        .linkedIn-icon {
+            width: 30px;
+
+        }
+
+        .github-icon {
+            width: 30px;
+            transform: translateY(-30px);
+        }
+
+        .facebook-icon {
+            width: 30px;
+
+        }
+
+        .reddit-icon {
+            width: 30px;
+            transform: translateY(30px);
+            margin-left: -65px;
+        }
     }
 
 

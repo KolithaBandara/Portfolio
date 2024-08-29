@@ -49,6 +49,7 @@ nav .logo ul li a:hover {
   background: transparent;
   border-radius: 8px;
   transition-duration: 0.5s;
+  cursor: not-allowed;
 }
 
 .time-line {
@@ -58,7 +59,7 @@ nav .logo ul li a:hover {
 }
 .time-line .main-line {
   position: absolute;
-  height: 400vh;
+  height: 425vh;
   width: 2px;
   background: #fff;
   top: 10%;
@@ -106,13 +107,17 @@ nav .logo ul li a:hover {
   border: 2px solid white;
   border-radius: 8px;
   display: flex;
-  flex-direction: row;
-  justify-content: start;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   text-align: center;
-  cursor: pointer;
-  margin-top: 50px;
+  margin-top: 75px;
   margin-left: 35%;
+  padding: 0px 20px 0px 20px;
+}
+.time-line .content-section p {
+  margin-top: 200px;
+  padding-top: 100px;
 }
 .time-line .image img {
   width: 380px;
@@ -127,6 +132,32 @@ nav .logo ul li a:hover {
   font-weight: 900;
   transform: translateY(-50vh);
   margin-left: 20px;
+}
+.time-line .social-media {
+  margin-left: 80vw;
+  transform: translateY(-300px);
+}
+.time-line .social-media p {
+  transform: translateY(-40px);
+  margin-left: 25px;
+}
+.time-line .social-media a {
+  text-decoration: none;
+}
+.time-line .social-media .linkedIn-icon {
+  width: 30px;
+}
+.time-line .social-media .github-icon {
+  width: 30px;
+  transform: translateY(-30px);
+}
+.time-line .social-media .facebook-icon {
+  width: 30px;
+}
+.time-line .social-media .reddit-icon {
+  width: 30px;
+  transform: translateY(30px);
+  margin-left: -65px;
 }
 .time-line .contact-on .stack-overflow-icon, .time-line .contact-on .github {
   width: 50px;
@@ -228,7 +259,6 @@ footer {
   justify-content: center;
   align-items: center;
 }
-footer .fb-icon {
-  margin-top: 20px;
-  width: 25px;
+footer p {
+  color: yellow;
 }/*# sourceMappingURL=style.css.map */
